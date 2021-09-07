@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body{
+    background-color: rgba(0, 0, 0, 0.912);
+background-image: url(/css/ex/imgs/ice\ coffee.jpeg);
+background-repeat:no-repeat ;
+}
+
+.red{
+    color: rgb(255, 174, 0);
+    text-decoration:underline;
+    font-size: 30px;
+}
+.blue{
+    color: rgba(21, 0, 255, 0.469);
+    font-weight:400;
+    font-family: serif;
+    font-size:25px;
+}
+.green{
+    color: green;
+    text-decoration:line-through;
+    font-family:serif, sans-serif;
+
+}
+.cat{
+    color: rgb(255, 187, 0);
+    background-image:url() ;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+}
