@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    background-color: rgba(0, 0, 0, 0.912);
+    background-color: rgba(53, 163, 231, 0.687);
 background-image: url(/css/ex/imgs/ice\ coffee.jpeg);
 background-repeat:no-repeat ;
 }
@@ -28,4 +28,9 @@ background-repeat:no-repeat ;
     text-align: center;
     font-size: 30px;
     line-height: 1.5;
+
+}
+#font1{
+    color: chocolate;
+    font-size: 30px;
 }

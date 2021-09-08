@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+html{
+background-color: rgba(245, 182, 10, 0.646);
+}
+
+body{
+    font-family: 'Shippori Mincho B1', serif;
+color: darkgreen;
+}
+
+h1,h3,h4{
+    font-family: 'DotGothic16', sans-serif;
+}
+h2{
+    font-family: 'DotGothic16', sans-serif;
+    color: black;
+
+}
+p{
+    color: black;
+}
+span{
+    color: rgba(255, 0, 13, 0.666);
+}
+.container{
+    width:80%;
+    margin: auto;
+}
