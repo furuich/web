@@ -18,7 +18,7 @@ html{
 p{
     background-color:rgba(0, 128, 0, 0.272);
     width: 100px;
-    height: 100px;
+    height: auto;
     padding: 1rem 1em 1em 3rem;
     border: solid 0.2em rgb(3, 39, 3);
     margin: 5rem 1em;
