@@ -22,6 +22,7 @@ h1,h2,h3{
 li {
   list-style: none;
 }
+/* top画像のところの設定 */
 .site-title {
   width: 120px;
   line-height: 1px;
@@ -80,6 +81,7 @@ Mainvisual
 #mainvisual {
   margin-bottom: 80px;
 }
+/* divのクラスで設定してる */
 /* メインの画像の設定 */
 #mainvisual img {
   width: 100%;
@@ -96,6 +98,7 @@ About
   justify-content: center;
   align-items: center;
 }
+/* sectionのidで宣言してるところ */
 #about img {
   width: 100px;
   height: 100px;
