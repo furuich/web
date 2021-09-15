@@ -1,1 +1,26 @@
 @charset "UTF=8"
+
+*,*::after,*::before
+{
+
+}
+
+html{
+    font-size: 16px;
+}
+/* ul,liをflexboxでならべる */
+
+
+.nav{
+    display: flex;
+    display: contents;
+    text-align: center;
+
+
+}
+
+.container{
+    width: 50%;
+    height: auto;
+
+}
