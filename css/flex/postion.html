@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>positionプロパティ</title>
     <style>
+        /* 黒い外枠 */
         .outside {
             border: solid 1px black;
         }
 
+        /* 幅と高さ */
         .inside {
             width: 100px;
             height: 100px;
@@ -27,14 +29,17 @@
             background: green;
         }
 
+        /* 相対位置指定 topから40。元の位置は残る*/
         .relative {
             position: relative;
             top: 40px;
             left: 40px;
         }
 
+        /* 絶対位置指定 */
         .absolute {
             position: absolute;
+
             top: 40px;
             left: 40px;
         }
@@ -42,18 +47,42 @@
         .base {
             position: relative;
         }
+
+        .rel1 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+        }
+
+        .rel2 {
+            position: absolute top: 20px;
+            left: 20px;
+            z-index: 49;
+        }
+
+        .ab0 {
+            position: absolute;
+            z-index: 50;
+        }
     </style>
 </head>
 <body>
     <div class="outside">
         <div class="inside red"></div>
         <div class="inside blue relative"></div>
-        <div class="inside green absolute"></div>
+        <div class="inside green"></div>
     </div>
     <div class="outside base">
+        <!-- このabsoluteはbaseクラスなので、基準がstaticじゃない -->
         <div class="inside red"></div>
         <div class="inside blue relative"></div>
         <div class="inside green absolute"></div>
+    </div>
+    <div class="outside base">
+        <div class="inside red ab0"></div>
+        <div class="inside blue rel1"></div>
+        <div class="inside green rel2"></div>
     </div>
 </body>
 </html>
