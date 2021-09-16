@@ -2,7 +2,11 @@
 
 *,*::after,*::before
 {
-
+box-sizing: border-box;
+}
+/* inline-block で調べる */
+.inline{
+    display: inline-block;
 }
 
 html{
@@ -10,17 +14,55 @@ html{
 }
 /* ul,liをflexboxでならべる */
 
-
-.nav{
+/*flex修正 */
+.flex-nav{
     display: flex;
-    display: contents;
+    padding: 3rem;
+}
+.nav{
+    margin: 1rem;
+    flex:;
+}
+
+
+/* メインの画像 横いっぱい広げる*/
+#img{
+    width:;
+    object-fit:;
+}
+
+/* flexきかせる */
+#town{
+    display: flex;
+}
+
+#other{
+    display: flex;
+
+    fl
+
+}
+.pc{
+flex: shrink 3;
+}
+
+h2{
     text-align: center;
+margin: 8rem;
+font-size: 2rem;
+border-bottom: solid;
+border-color:royalblue ;
+}
 
+h1{
+    font-size: 4rem;
+}
 
+h3{
+    font: size 2rem;
 }
 
 .container{
-    width: 50%;
+    width: 80%;
     height: auto;
-
 }
