@@ -11,6 +11,7 @@ box-sizing: border-box;
 
 html{
     font-size: 16px;
+    background-image: ;
 }
 /* ul,liをflexboxでならべる */
 
@@ -26,24 +27,87 @@ html{
 
 
 /* メインの画像 横いっぱい広げる*/
-#img{
-    width:;
-    object-fit:;
+.mainimg{
+    width:100vw;
+    object-fit:cover;
+margin-bottom: 1rem;
+
+
 }
 
 /* flexきかせる */
+.content{
+    margin: 0 auto;
+max-width: 1080px;
+min-height: 600px;
+}
+
+/*  town*/
+
 #town{
     display: flex;
 }
 
-#other{
-    display: flex;
-
-    fl
+.townimg{
 
 }
-.pc{
-flex: shrink 3;
+
+/* home */
+
+#home{
+    display: flex;
+}
+.homeimg{
+
+}
+
+/*見本 */
+
+#about .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+#about .text {
+  text-align: left;
+}
+
+
+
+/* other */
+.othercon{
+    margin: 0 auto;
+  /* 外枠の大きさ */
+  max-width: 1080px;
+  /* border: 1px solid black; */
+  min-height: 600px;
+}
+
+#other{
+    display: flex;
+flex-wrap: wrap;
+background-color: black;
+justify-content: space-around;
+margin: 70px auto 0 auto;
+}
+#other{
+border: 1px solid black;
+  /* 記事アイテムの一つの大きさ */
+  width: 30%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.pc img{
+width: 100%;
+height: 100%;
+
 }
 
 h2{
@@ -54,14 +118,18 @@ border-bottom: solid;
 border-color:royalblue ;
 }
 
-h1{
-    font-size: 4rem;
-}
 
 h3{
     font: size 2rem;
+    margin:8rem;
 }
 
+h1{
+    display: inline-block;
+    font-size: 2rem;
+margin: 2rem;
+text-align: center;
+}
 .container{
     width: 80%;
     height: auto;
